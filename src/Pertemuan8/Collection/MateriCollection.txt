@@ -1,0 +1,16 @@
+1. Map dan List
+   Map dan List merupakan sebuah interface yang digunakan untuk menerapkan Collection. Map dan List yang dibuat dapat
+   memiliki cara implementasi yang berbeda, misalnya dengan menggunakan Array, menggunakan key hash. Apa perbedaan map dan
+   list? Map dapat memiliki Key custom (Object, String, Integer, dll) sedangkan List hanya berupa sebuah daftar
+2. Vector
+   Vector merupakan array dinamis yang akan mengekspansi array yang dimilikinya sendiri jika kapasitasnya habis. Jumlah
+   ruangan pada array akan meningkat sebanyak 100%.
+3. HashMap
+   HashMap adalah contoh implementasi dari Map menggunakan Hash. Objek yang ditambahkan ke dalam Map diidentifikasikan
+   menggunakan key yang sudah dihash terlebih dahulu. Ketika array sudah hampir habis (habis 75%), array yang terdapat pada
+   HashMap akan diekspansi kembali.
+4. ArrayList
+   ArrayList juga merupakan contoh implementasi dari List yang menggunakan array sebagai kontainer. Perbedaannya dengan
+   Vector adalah ArrayList hanya mengekspansi ukuran array sebanyak 50% jika kehabisan ruangan.
+5. LinkedList
+   LinkedList juga merupakan contoh implementasi dari List yang menggunakan konsep Linked List untuk menyimpan data.
